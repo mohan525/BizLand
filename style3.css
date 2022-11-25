@@ -1,0 +1,161 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Roboto", sans-serif;
+}
+.nav-link{
+     color: black;
+}
+.nav-item.a:hover {
+  color: #3b8af2;
+  text-decoration: none;
+}
+#hero .container{
+  position: relative;
+  padding: 10%;
+}
+#hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero h1 span {
+  color: #106eea;
+}
+#featured-services .container .icon-box{
+  padding: 20px 20px 10px 20px;
+  border: 2px solid rgb(224, 221, 221);
+}
+
+.d-flex button{
+  background-color: #3b8af2;
+}
+#about .section-title{
+  padding: 25px 25px 5px 25px;
+  text-align: center;
+}
+#about .container h3 span{
+     color: #106eea;
+}
+#about{
+  background-color: #f7f8fa;
+  margin-top: 30px;
+}
+#skills .container{
+  margin-top: 60px;
+}
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #222222;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #f4f6f7;
+  height: 10px;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #3673ef;
+}
+#clients{
+  background-color: #f7f8fa;
+  padding: 50px;
+}
+#clients .row img{
+  width: 90px;
+}
+#services .section-title{
+  padding: 40px 25px 5px 25px;
+  text-align: center;
+}
+#services .icon-box {
+  border: 2px solid rgb(231, 229, 229);
+  padding: 50px;
+  text-align: center;
+}
+#testimonials .container{
+  text-align: center;
+  margin-top: 50px;
+  padding: 90px;
+  background-color: black;
+  color: white;
+}
+.testimonial-item img{
+  border-radius: 80%;
+  width: 40px;
+}
+#portfolio .section-title{
+  text-align: center;
+  margin-top: 40px;
+}
+#portfolio .container .row{
+  list-style-type: none;
+  text-align: center;
+}
+#team .section-title{
+  text-align: center;
+  padding: 50px;
+}
+#team .container{
+  background-color: #f8fafc;
+  margin-top: 40px;
+}
+.member-info{
+  padding: 20px 50px 10px 10px;
+}
+.member{
+  background-color: white;
+}
+#pricing .section-title{
+  text-align: center;
+  padding: 50px;
+}
+.card{
+  background-color: #106eea;
+}
+#faq .container{
+  background-color: #f7f8fa;
+  padding: 50px;
+  margin-top: 50px;
+}
+#faq .section-title{
+  text-align: center;
+}
+#contact .section-title{
+  text-align: center;
+  padding: 40px;
+}
+#footer .footer-newsletter{
+  background-color: #eff2f6;
+  padding: 50px;
+  margin-top: 40px;
+}
